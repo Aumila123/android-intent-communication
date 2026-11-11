@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Įveskite tekstą..."
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnConfirmInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Įvesti norimą tekstą" />
+</LinearLayout>
